@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+</head>
+<body>
+
+<button onclick="something()" style="font-size: 25px;
+ background-color: gray; color: lightblue; border-radius: 10px;" >click me</button>
+
+ <p id="greeting">Hello</p>
+<script>
+   function something(){
+document.getElementById("greeting").innerHTML = "Goodbye";
+
+
+   } 
+</script>
+<button onclick="anotherthing()" style="font-size: 25px; border-radius: 10px; background-color:red;
+ color: black;">Its my turn now</button>
+
+<script>
+function anotherthing(){
+
+document.getElementById("greeting").innerHTML = "Hello again"
+
+}
+
+</script>
+
+
+</body>
