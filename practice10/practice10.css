@@ -1,0 +1,18 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+#p1{
+
+    color: tomato;
+
+}
+#p2{
+    color: rgb(55,42,155);
+}
+#p3{color: #999321;}
+
+#p4{
+    color: hsl(654, 100%, 60%);
+}
+
